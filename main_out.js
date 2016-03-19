@@ -549,6 +549,7 @@
         var a = document.createElement("canvas"),
             b = a.getContext("2d"),
             d = Math.min(800, .6 * q) / 800;
+            console.log('elementCreated named as Canvas')
         a.width = 800 * d;
         a.height = 60 * d;
         b.globalAlpha = .3;
